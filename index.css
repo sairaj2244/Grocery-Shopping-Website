@@ -1,0 +1,30 @@
+input[type="password"] {
+  background-image: url("images/eye.png");
+  background-repeat: no-repeat;
+  background-position: 430px;
+  background-size: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 13px;
+}
+
+#myTabContent1 {
+  height: 35vh;
+  overflow-y: scroll;
+}
+
+.hide {
+  display: none;
+}
+
+.card:hover .hide {
+  display: block;
+}
